@@ -17,7 +17,15 @@ Players can track their progress in real-time using the scoreboard and bossbar d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HfwstMUEBfc?si=2IG_SUde_bn7y_6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
 
+## 🧩 Code
+
+[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+
+[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+
+---
 
 ## ⚙️ Game Features
 
