@@ -8,9 +8,21 @@ layout: post
 
 A Minescript script that tracks visited biomes and displays progress.
 
+---
+
 ## 🎬 YouTube Demo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w60aoGihbX8?si=pjKi29n5-S8O807M&amp;start=159" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## 🧩 Code
+
+[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+
+[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+
+---
 
 ## 🚀 Features
 
@@ -18,6 +30,8 @@ A Minescript script that tracks visited biomes and displays progress.
 - Uses a scoreboard system to record and count visited biomes.
 - Provides chat commands for progress checking and resetting.
 - Displays results via messages in Minecraft.
+
+---
 
 ## 🧭 Commands
 
