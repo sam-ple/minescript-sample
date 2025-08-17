@@ -1,0 +1,1 @@
+Note: This is an unofficial fan-made site and is not affiliated with the official Minescript project in any way.
