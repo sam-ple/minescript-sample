@@ -6,20 +6,16 @@ layout: post
 
 # What is Minescript?
 
-- **Minescript** allows you to control and interact with *Minecraft* using Python scripts.
-- Please review the [Terms of Use](https://github.com/maxuser0/minescript/blob/main/TERMS_OF_USE.md) to ensure that your usage is compliant.
-
----
-
-- Official site: [minescript.net](https://minescript.net/)  
-- Discord Community: [Join here](https://discord.gg/NjcyvrHTze)  
-  - A great place to ask questions, share ideas, or discover community-made scripts
+- **Minescript** is a platform for controlling and interacting with Minecraft using scripts written in the Python programming language.
+- Before using Minescript, please review the [Terms of Use](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fminescript.net%252fterms).
+- Join the [Minescript Discord Server](https://discord.gg/NjcyvrHTze) for announcements and to engage with the Minescript community.
+- Check out [Minescript documentation](https://minescript.net/docs/) for details about commands and APIs.
 
 ---
 
 ## Mod Availability
 
-- You can download the mod from [Modrinth](https://modrinth.com/) or [CurseForge](https://www.curseforge.com/).
+- You can download the mod from **[Modrinth]([https://modrinth.com/](https://modrinth.com/mod/minescript))** or **[CurseForge](https://www.curseforge.com/minecraft/mc-mods/minescript)**.
 - It supports the following mod loaders: **Fabric**, **Forge**, and **NeoForge**.
 - Supported environments: **Client-side**
 
