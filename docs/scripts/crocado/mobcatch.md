@@ -16,6 +16,14 @@ This script allows players to "catch" mobs in Minecraft using a specified item (
 
 ---
 
+## 🧩 Code
+
+[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+
+[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+
+---
+
 ## 💬 In-Game Commands
 
 Use these commands via chat:
@@ -30,7 +38,9 @@ Use these commands via chat:
 | `--reset`                  | Reset to default settings           |
 | `--help`                   | Show this command list              |
 
-### 🧪 Example
+---
+
+## 🧪 Example
 
 To catch a mob using a carrot in your offhand with right-click and a max distance of 5 blocks:
 
