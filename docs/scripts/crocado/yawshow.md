@@ -18,6 +18,6 @@ A Minescript script that displays the player's yaw-based direction (like a compa
 
 ## 🧩 Code
 
-[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+[https://github.com/sam-ple/minescript-scripts/blob/main/yawshow.py](https://github.com/sam-ple/minescript-scripts/blob/main/yawshow.py)
 
-[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+[https://github.com/sam-ple/minescript-scripts/blob/92a04dcd99a4b6ee464b84eec379c663cf367e52/yawshow.py#L1-L109:embed:lang=python:h400]
