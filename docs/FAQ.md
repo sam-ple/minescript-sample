@@ -32,3 +32,21 @@ Probably 3.8 or higher. But if you have to install it, go straight for 3.13.
 ## ❓️ What is Minescript Plus?
 [https://github.com/R4z0rX/minescript-scripts/tree/main/Minescript-Plus](https://github.com/R4z0rX/minescript-scripts/tree/main/Minescript-Plus)
 
+## ❓️ Where can I download the mod?
+
+- [Modrinth](https://modrinth.com/mod/minescript)  
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/minescript)
+
+## ❓️ Can I use it on a server?
+
+Not currently.
+
+## ❓️ What Minecraft versions are supported?
+
+- 1.21.3–1.21.8  
+- 1.21–1.21.1  
+- 1.20.6  
+- 1.20.4  
+- 1.20–1.20.2  
+- 1.19.2–1.19.4  
+- 1.18.2
