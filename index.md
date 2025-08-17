@@ -11,4 +11,14 @@ nav_order: 1
 
 ---
 
+### Contributors
+
+<a href="https://github.com/sam-ple/minescript-sample/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sam-ple/minescript-sample" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+---
+
 💬 *Some information may be outdated or incorrect. If you notice any issues, please let me know!*
