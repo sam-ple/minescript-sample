@@ -24,4 +24,4 @@ A small utility to widen the chat window.
 
 ## 🧩 Code
 
-[https://discord.com/channels/930220988472389713/1405074174514429982](https://discord.com/channels/930220988472389713/1405074174514429982)
+- [https://discord.com/channels/930220988472389713/1405074174514429982](https://discord.com/channels/930220988472389713/1405074174514429982)
