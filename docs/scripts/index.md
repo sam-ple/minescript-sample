@@ -4,8 +4,12 @@ nav_order: 6
 layout: post
 ---
 
-# scripts
+# Scripts
 
+## Shared script from Discord channel
+- [https://discord.com/channels/930220988472389713/1068545062646059128](https://discord.com/channels/930220988472389713/1068545062646059128)
+
+## Repositories found by searching "minescript" on GitHub
 - [@maxuser0 / minescript-scripts](https://github.com/maxuser0/minescript-scripts)
 - [@sam-ple / minescript-scripts](https://github.com/sam-ple/minescript-scripts)
 - [@R4z0rX / minescript-scripts](https://github.com/R4z0rX/minescript-scripts)
