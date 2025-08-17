@@ -8,6 +8,8 @@ layout: post
 
 A small utility to widen the chat window.
 
+---
+
 ## 📌 Usage
 
 ```
@@ -18,9 +20,13 @@ A small utility to widen the chat window.
 - The setting persists across world changes and server disconnects.
 - However, it **resets when Minecraft is closed**, as it isn't saved permanently yet.
 
+---
+
 ## 🎬 YouTube Demo (Unlisted)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JvOHSm2cXxo?si=PU1ulJtIx4pKj9xm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 
 ## 🧩 Code
 
