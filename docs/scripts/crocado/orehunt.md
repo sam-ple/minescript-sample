@@ -21,9 +21,9 @@ Players can track their progress in real-time using the scoreboard and bossbar d
 
 ## 🧩 Code
 
-[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+[https://github.com/sam-ple/minescript-scripts/blob/main/orehunt.py](https://github.com/sam-ple/minescript-scripts/blob/main/orehunt.py)
 
-[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+[https://github.com/sam-ple/minescript-scripts/blob/92a04dcd99a4b6ee464b84eec379c663cf367e52/orehunt.py#L1-L243:embed:lang=python:h400]
 
 ---
 
