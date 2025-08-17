@@ -20,9 +20,9 @@ This script provides a customizable **in-game HUD overlay** for Minecraft using 
 
 ## 🧩 Code
 
-[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+[https://github.com/sam-ple/minescript-scripts/blob/main/customhud.pyj](https://github.com/sam-ple/minescript-scripts/blob/main/customhud.pyj)
 
-[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+[https://github.com/sam-ple/minescript-scripts/blob/92a04dcd99a4b6ee464b84eec379c663cf367e52/customhud.pyj#L1-L219:embed:lang=python:h400]
 
 ---
 
