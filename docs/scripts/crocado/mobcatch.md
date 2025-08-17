@@ -18,9 +18,9 @@ This script allows players to "catch" mobs in Minecraft using a specified item (
 
 ## 🧩 Code
 
-[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+[https://github.com/sam-ple/minescript-scripts/blob/main/mobcatch.py](https://github.com/sam-ple/minescript-scripts/blob/main/mobcatch.py)
 
-[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+[https://github.com/sam-ple/minescript-scripts/blob/92a04dcd99a4b6ee464b84eec379c663cf367e52/mobcatch.py#L1-L244:embed:lang=python:h400]
 
 ---
 
