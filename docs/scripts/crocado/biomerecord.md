@@ -18,9 +18,9 @@ A Minescript script that tracks visited biomes and displays progress.
 
 ## 🧩 Code
 
-[https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py](https://github.com/sam-ple/minescript-scripts/blob/main/autoloot.py)
+[https://github.com/sam-ple/minescript-scripts/blob/main/biomerecord.py](https://github.com/sam-ple/minescript-scripts/blob/main/biomerecord.py)
 
-[https://github.com/sam-ple/minescript-scripts/blob/78427e1cc31445531ddd88eed54cec76edf02e7a/autoloot.py#L1-L363:embed:lang=python:h400]
+[https://github.com/sam-ple/minescript-scripts/blob/92a04dcd99a4b6ee464b84eec379c663cf367e52/biomerecode.py#L1-L136:embed:lang=python:h400]
 
 ---
 
