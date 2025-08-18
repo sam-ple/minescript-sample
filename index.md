@@ -30,7 +30,7 @@ nav_order: 1
 
 ## 👥 Contributors
 
-- Made with [contrib.rocks](https://contrib.rocks). Please note that changes may take some time to appear.
+- Made with [contrib.rocks](https://contrib.rocks/preview?repo=sam-ple%2Fminescript-sample). Please note that changes may take some time to appear.
 
 <a href="https://github.com/sam-ple/minescript-sample/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sam-ple/minescript-sample" />

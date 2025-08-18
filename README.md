@@ -18,13 +18,11 @@
 - Want to help improve this fan site? Pull requests are always welcome!
 - Some information may be outdated or incorrect. If you spot an issue, feel free to open one on GitHub!
 
-[View it on GitHub](https://github.com/sam-ple/minescript-sample){: .btn .fs-5 .mb-4 .mb-md-0 }
-
 ---
 
 ## 👥 Contributors
 
-- Made with [contrib.rocks](https://contrib.rocks). Please note that changes may take some time to appear.
+- Made with [contrib.rocks](https://contrib.rocks/preview?repo=sam-ple%2Fminescript-sample). Please note that changes may take some time to appear.
 
 <a href="https://github.com/sam-ple/minescript-sample/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sam-ple/minescript-sample" />
