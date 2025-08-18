@@ -1,5 +1,5 @@
 ---
-title: 📚Scripts
+title: Scripts
 nav_order: 9
 layout: post
 ---
