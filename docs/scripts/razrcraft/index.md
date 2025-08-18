@@ -1,6 +1,6 @@
 ---
 title: RazrCraft
-nav_order: 6
+nav_order: 1
 layout: post
 parent: Scripts
 ---

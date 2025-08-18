@@ -1,18 +1,44 @@
 ---
 title: Mapping
 layout: post
-nav_order: 5
+nav_order: 6
 ---
 
-## 🧠 Why Are Mappings Necessary?
+# Working with Minecraft Mappings (Minescript 5.0)
 
-Pyjinn or Minescript scripts often need to access Java classes.  
-Since Minecraft class names are obfuscated (e.g., `net/minecraft/class_310`), **mappings convert them into human-readable names**.  
-This requires mapping files such as `client.txt` (Mojang) and `*.tiny` (Fabric).
+- [https://minescript.net/mappings/](https://minescript.net/mappings/)
 
 ---
 
-## ✅ Download
+## What are obfuscated symbols and mappings?
+
+* Minecraft’s code is **obfuscated**: class, method, and field names are replaced with gibberish (e.g., `Minecraft.getInstance()` → `fud.R()`).
+* NeoForge (1.20.2+) remaps these symbols to **Official Mojang names**, so no extra mapping is needed.
+* Fabric uses **intermediary mappings**: consistent names (e.g., `net.minecraft.class_310`) across versions, mapping from obfuscated names.
+
+---
+
+## How Minescript 5.0 handles mappings
+
+* In **Pyjinn scripts**, use **official Mojang names**.
+* NeoForge works directly.
+* Fabric requires **mapping from official names → obfuscated → intermediary names**.
+* Minescript automatically handles this if mappings are installed.
+
+---
+
+## Installing mappings
+
+* Run `\install_mappings` in Minescript 5.0b4+.
+
+  1. Downloads **Official Mojang mappings** for your Minecraft version.
+  2. Downloads **Fabric intermediary mappings** (if using Fabric).
+  3. Loads mappings into memory for fast runtime access.
+* NeoForge does not require mappings.
+
+---
+
+## Download
 
 - install_mappings.pyj
   - [https://discord.com/channels/930220988472389713/1404182828907761744](https://discord.com/channels/930220988472389713/1404182828907761744)
@@ -21,7 +47,7 @@ This requires mapping files such as `client.txt` (Mojang) and `*.tiny` (Fabric).
 
 ---
 
-## ✅ Quick Setup
+## Quick Setup
 
 ### install_mappings.pyj
 
@@ -62,7 +88,7 @@ Minecraft = JavaClass("net.minecraft.client.Minecraft")
 
 ---
 
-## 📌 Troubleshooting
+## Troubleshooting
 
 If you see:
 
@@ -72,64 +98,3 @@ java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
 
 It means mappings are missing or not reloaded.
 → Run `\mappings_downloader` and then `\reload_mappings` again.
-
----
-
-## 🔧 What the Script Does
-
-* **Version detection**
-  * In Minescript: `minescript.version_info().minecraft`
-  * From CLI: `python mappings_downloader.py -v 1.21.7`
-
-* **Download Mojang’s official mappings** (`client.txt`)
-  * Saved to `/minescript/mappings/<version>/client.txt`
-
-* **Download Fabric intermediary mappings** (`*.tiny`)
-  * Saved to `/minescript/mappings/<version>/<version>.tiny`
-
-* **Automatic folder creation**
-  * Adjusts paths depending on Minescript or CLI usage
-
----
-
-## 💬 How to Run
-
-**In Minecraft (automatic version detection):**
-
-```
-\mappings_downloader
-\reload_mappings
-```
-
-**From CLI (manual version input):**
-
-```bash
-python mappings_downloader.py -v 1.21.7
-```
-
----
-
-## 📁 Example Folder Structure
-
-```
-minescript/
-├─ config.txt
-├─ mappings_downloader.py
-├─ mappings/
-│  └─ 1.21.7/
-│     ├─ client.txt    ← Mojang mappings
-│     └─ 1.21.7.tiny   ← Fabric intermediary mappings
-```
-
----
-
-## 📌 Summary
-
-| Feature           | Description                           |
-| ----------------- | ------------------------------------- |
-| Version detection | Auto (Minescript) or manual (CLI)     |
-| Mojang mappings   | Downloads `client.txt`                |
-| Fabric mappings   | Downloads `<version>.tiny`            |
-| Auto path setup   | Creates/save paths automatically      |
-| Apply mappings    | Run `\reload_mappings` after download |
-
