@@ -1,10 +1,10 @@
 ---
-title: Pyjinn Overview
+title: Pyjinn Overview (5.0+)
 layout: post
 nav_order: 5
 ---
 
-# Pyjinn Overview
+# Pyjinn Overview (5.0+)
 
 - [https://minescript.net/pyjinn/](https://minescript.net/pyjinn/)
 

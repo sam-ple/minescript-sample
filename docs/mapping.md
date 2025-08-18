@@ -1,10 +1,10 @@
 ---
-title: Mapping
+title: Mapping Overview (5.0+)
 layout: post
 nav_order: 6
 ---
 
-# Working with Minecraft Mappings (Minescript 5.0)
+# Mappings Overview (5.0+)
 
 - [https://minescript.net/mappings/](https://minescript.net/mappings/)
 
@@ -38,63 +38,28 @@ nav_order: 6
 
 ---
 
-## Download
+## Download(Before 5.0b4)
 
-- install_mappings.pyj
+- install_mappings.pyj (made by @maxuser)
   - [https://discord.com/channels/930220988472389713/1404182828907761744](https://discord.com/channels/930220988472389713/1404182828907761744)
-- mappings_downloader.py
+- mappings_downloader.py (made by @RazrCraft)
   - [https://discord.com/channels/930220988472389713/1392903003966668850](https://discord.com/channels/930220988472389713/1392903003966668850)
 
----
+### Quick Setup
 
-## Quick Setup
-
-### install_mappings.pyj
+#### install_mappings.pyj
 
 1. Place `install_mappings.pyj` in the `/minescript/` folder.
+2. Run in Minecraft: `\install_mappings`
 
-2. Run in Minecraft:
-
-```
-\install_mappings
-```
-
-
-### mappings_downloader.py
+#### mappings_downloader.py
 
 1. Place `mappings_downloader.py` in the `/minescript/` folder.
+2. Run in Minecraft: `\mappings_downloader` -> Detects your Minecraft version and downloads the mapping files.
+1. Reload mappings: `\reload_mappings` -> Ready to use Java classes in Pyjinn scripts.
 
-2. Run in Minecraft:
+### Troubleshooting
 
-```
-\mappings_downloader
-```
-
-→ Detects your Minecraft version and downloads the mapping files.
-
-3. Reload mappings:
-
-```
-\reload_mappings
-```
-
-→ Ready to use Java classes in Pyjinn scripts.
-
-Example:
-
-```python
-Minecraft = JavaClass("net.minecraft.client.Minecraft")
-```
-
----
-
-## Troubleshooting
-
-If you see:
-
-```
-java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
-```
-
-It means mappings are missing or not reloaded.
-→ Run `\mappings_downloader` and then `\reload_mappings` again.
+- If you see: `java.lang.ClassNotFoundException: net.minecraft.client.Minecraft`
+- It means mappings are missing or not reloaded.
+  - Run `\mappings_downloader` and then `\reload_mappings` again.
