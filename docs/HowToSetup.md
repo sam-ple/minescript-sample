@@ -1,5 +1,5 @@
 ---
-title: How to Setup
+title: 🛠️How to Setup
 nav_order: 3
 layout: post
 ---
