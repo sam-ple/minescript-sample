@@ -1,16 +1,14 @@
 // custom SCSS (or CSS) goes here
 
 //YouTube Responsible
-.youtube,
-.yt {
+.youtube {
     position: relative;
     width: 100%;
     padding-top: 56.25%; /* 16:9のアスペクト比 */
     height: 0;
 }
 
-.youtube iframe,
-.yt iframe {
+.youtube iframe {
     position: absolute;
     top: 0;
     left: 0;
