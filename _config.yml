@@ -6,12 +6,12 @@ url: https://sam-ple.github.io/minescript-sample
 
 # Aux links for the upper right navigation
 aux_links:
-  "Minescript Sample on GitHub":
+  "View it on GitHub":
     - "https://github.com/sam-ple/minescript-sample"
 
 # External navigation links
 nav_external_links:
-  - title: Minescript Sample on GitHub
+  - title: View it on GitHub
     url: https://github.com/sam-ple/minescript-sample
 
 # Back to top link
