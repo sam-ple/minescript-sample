@@ -1,5 +1,5 @@
 ---
-title: Guide01
+title: Guide01 – TNT Underfoot
 parent: Beginners Guide
 layout: post
 nav_order: 1

@@ -1,5 +1,5 @@
 ---
-title: Guide02
+title: Guide02 – Backhome
 parent: Beginners Guide
 layout: post
 nav_order: 2
