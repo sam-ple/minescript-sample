@@ -23,19 +23,6 @@ Each section includes example code and the expected behavior.
   5. Teleport the player to the saved home coordinates when the above combination occurs.
   6. Display debug messages to confirm the detection and teleport action.
 
-<!--
----
-
-```python
-def title_subtitle(title_text, subtitle_text=None, title_color="gold", subtitle_color="aqua", delay=1):
-    m.execute("title @a clear")
-    m.execute(f'title @a title {{"text":"{title_text}","color":"{title_color}","bold":true}}')
-    if subtitle_text and subtitle_text.strip():
-        m.execute(f'title @a subtitle {{"text":"{subtitle_text}","color":"{subtitle_color}","bold":true}}')
-    time.sleep(delay)
-```
--->
-
 ---
 
 ## ❷ Detect Held Items (Main/Off Hand)
