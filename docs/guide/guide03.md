@@ -1,6 +1,6 @@
 ---
 title: Guide03
-parent: Beginners Guide
+parent: Begineers Guide
 layout: post
 nav_order: 3
 ---
