@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Beginners Guide
 nav_order: 8
 layout: post
 ---
