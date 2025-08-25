@@ -53,3 +53,12 @@ layout: post
 - 1.20–1.20.2  
 - 1.19.2–1.19.4  
 - 1.18.2
+
+## ❓️ How can I enable autocomplete in VS Code?
+
+- Use PyCharm for the best experience.  
+- In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`).  
+
+## ❓️ What if the server version is old?
+
+- Even if the server is outdated, you can still connect with a newer client by using **ViaVersion**, **ViaFabric**, or **ViaFabricPlus**.
