@@ -54,6 +54,14 @@ layout: post
 - 1.19.2–1.19.4  
 - 1.18.2
 
+## ❓️ What is the latest version?
+
+- Minescript **5.0 beta 5** is now available for **Fabric** and **NeoForge**.  
+- Supported Minecraft versions: **1.21.5**, **1.21.7**, and **1.21.8**.  
+- Download from [Modrinth](https://modrinth.com/mod/minescript) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/minescript).  
+- Note: **1.21.1** is the oldest Minecraft version planned to be ported to Minescript 5.0.
+
+
 ## ❓️ How can I enable autocomplete in VS Code?
 
 - Use PyCharm for the best experience.  
