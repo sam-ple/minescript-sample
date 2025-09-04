@@ -12,6 +12,7 @@ nav_order: 4
 - Save with the `.pyj` extension and run it in the **Minescript 5.0** environment.
 - [https://minescript.net/pyjinn/](https://minescript.net/pyjinn/)
 - Environment: MC 1.21.8 / MS 5.0b1 / MS+ 0.09a / Pyjinn / Fabric
+- ❗Before launching your first pyjinn program, make sure that you have mappings downloaded. If you have not already done so, type `\install_mappings` (5.04b+) OR download a community-made mapping [installer](https://discord.com/channels/930220988472389713/1392903003966668850) and type `\mappings_installer`. Then, run `\reload_mappings` to apply these changes.
 
 ---
 
