@@ -64,7 +64,8 @@ layout: post
 
 ## ❓️ How can I enable autocomplete in VS Code?
 
-- In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`).   -->
+- In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`). This will enable minescript completion. You may need to set another path to your minescript folder to get user-made libraries to also complete.
+- To make VS Code automatically format .pyj files in python, go to settings (`Ctrl+,`) → `files:associations` and add `.pyj` with a value of `python`
 
 ## ❓️ What if the server version is old?
 
