@@ -42,6 +42,8 @@ nav_order: 4
 
 Displays text in the Minecraft chat.
 
+If you are using VS Code, not that the code starts with `#!python` and `from minescript import *`. For more info, visit FAQ > VS Code autocomplete.
+
 ```python
 #!python
 from minescript import *
