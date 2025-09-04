@@ -62,7 +62,7 @@ layout: post
 - Note: **1.21.1** is the oldest Minecraft version planned to be ported to Minescript 5.0.
 
 
-<!-- ## ❓️ How can I enable autocomplete in VS Code?
+## ❓️ How can I enable autocomplete in VS Code?
 
 - In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`).   -->
 
