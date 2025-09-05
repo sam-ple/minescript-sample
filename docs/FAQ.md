@@ -42,7 +42,7 @@ layout: post
 
 ## ❓️ Can I use it on a server?
 
-- Not currently.
+- Minescript is a client-side mod. This means that you can execute your scripts on any multiplayer server, but you cannot currently do anything server-side.
 
 ## ❓️ What Minecraft versions are supported?
 
@@ -62,11 +62,15 @@ layout: post
 - Note: **1.21.1** is the oldest Minecraft version planned to be ported to Minescript 5.0.
 
 
-<!-- ## ❓️ How can I enable autocomplete in VS Code?
+## ❓️ How can I enable autocomplete in VS Code?
 
-- Use PyCharm for the best experience.  
-- In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`).   -->
+- In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`). This will enable minescript completion. You may need to set another path to your minescript folder to get user-made libraries to also complete.
+- To make VS Code automatically format .pyj files in python, go to settings (`Ctrl+,`) → `files:associations` and add `.pyj` with a value of `python`
 
 ## ❓️ What if the server version is old?
 
-- Even if the server is outdated, you can still connect with a newer client by using **ViaVersion**, **ViaFabric**, or **ViaFabricPlus**.
+- Many modern servers allow backporting to older versions as long as your client is more recent than the server's actual version that it's running and in the same major update. (You can join a server running 1.21.4 on a 1.21.8 client, but likely not a 1.21.1 client.) For larger gaps in versions, consider using  **ViaVersion**, **ViaFabric**, or **ViaFabricPlus** to backport it.
+
+## ❓️ How do I write an infinite loop in pyjinn?
+
+- Pyjinn runs natively in the rendering thread of minecraft, meaning that your code cannot use a `while True` loop, as it would never give control back to the rest of the client. Instead, use `set_interval(func, ms)` for infinite loops.
