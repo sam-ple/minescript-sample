@@ -1,5 +1,5 @@
 ---
-title: Guide04 – Effects etc.
+title: Guide04 – Effects etc
 parent: Beginners Guide
 layout: post
 nav_order: 4
