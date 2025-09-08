@@ -173,9 +173,16 @@ with EventQueue() as eq:
         
         hands = m.player_hand_items()
         main_hand = getattr(hands, "main_hand", None)
+
+        # Safely retrieve the item in the main hand
+        if isinstance(main_hand, dict):
+            main_item = main_hand.get("item")
+        else:
+            # main_hand may also be a string, so convert to str() for comparison
+            main_item = str(main_hand) if main_hand is not None else None
         
         # Combination: Holding a clock in main hand + Left Shift released
-        if main_hand and getattr(main_hand, "item", "") == "minecraft:clock":
+        if main_item == "minecraft:clock":
             if event.type == EventType.KEY and event.key == 340 and event.action == 0:
                 m.echo("Holding minecraft:clock in main hand + left shift released")
 ```
