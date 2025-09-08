@@ -11,8 +11,9 @@ layout: post
 ## Default Launcher (Official Minecraft Launcher)
 
 1. Download the required mods (Minescript + dependencies).
-2. Set your Python path in `config.txt`.
-3. Test it with a sample script.
+2. Launch the game once.  
+3. Set your Python path in `config.txt`.
+4. Test it with a sample script.
 
 <!--
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Monkt8_mgk?si=NVGXIf-0AVcAGEAu&amp;start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -22,10 +23,11 @@ layout: post
 
 ## Modrinth App (Recommended for Beginners)
 
-1. Download [Modrinth](https://modrinth.com/) and create a new instance.
-2. Install the required mods (Minescript + dependencies).
-3. Set your Python path in `config.txt`.
-4. Test it with a sample script.
+1. Download [Modrinth](https://modrinth.com/) and create a new instance.  
+2. Install the required mods (Minescript + dependencies).  
+3. Launch the game once.  
+4. Set your Python path in `config.txt`.  
+5. Test it with a sample script.  
 
 *Modrinth is a free Minecraft launcher available for Windows, macOS, and Linux.*
 

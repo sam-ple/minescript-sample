@@ -3,6 +3,7 @@ title: Guide04 – Effects etc
 parent: Beginners Guide
 layout: post
 nav_order: 4
+render_with_liquid: false
 ---
 
 # Beginners Guide 04: Titles, Effects, Sounds, and Particles in Minescript
