@@ -42,46 +42,7 @@ while True:
 
 ---
 
-## ❷ Skeleton Damage Debug
-
-A simplified version tracking only **skeletons**:
-
-```python
-import minescript as m
-from minescript import EventQueue, EventType
-
-eq = EventQueue()
-eq.register_damage_listener()
-
-m.echo("⚡ Skeleton DamageEvent debug mode: waiting for skeleton hits...")
-
-while True:
-    event = eq.get()
-    if not event or event.type != EventType.DAMAGE:
-        continue
-
-    # Get the target entity
-    targets = m.entities(uuid=event.entity_uuid)
-    if not targets:
-        continue
-
-    target = targets[0]
-    
-    # Skip if not a skeleton
-    if target.type != "minecraft:skeleton":
-        continue
-
-    # Inspect skeleton-specific events
-    m.echo(f"--- DAMAGE EVENT (Skeleton) ---")
-    m.echo(f"entity_uuid = {event.entity_uuid}")
-    m.echo(f"cause_uuid  = {event.cause_uuid}")
-    m.echo(f"source      = {event.source}")
-    m.echo(f"full event  = {event.__dict__}")
-```
-
----
-
-## ❸ Melee Attacks Only
+## ❷ Melee Attacks Only
 
 Detect **melee attacks** from the local player:
 
@@ -118,7 +79,7 @@ while True:
 
 ---
 
-## ❹ Add Projectiles
+## ❸ Add Projectiles
 
 Handle **both melee and ranged attacks**:
 
@@ -139,7 +100,7 @@ while True:
         continue
 
     # Handle melee + projectiles
-    if event.source not in ["player", "arrow", "trident", "snowball", "fireball"]:
+    if event.source not in ["player", "arrow", "trident"]:
         continue
 
     if event.cause_uuid != local_uuid:
@@ -155,7 +116,7 @@ while True:
 
 ---
 
-## ❺ Remaining HP & Kill Detection
+## ❹ Remaining HP & Kill Detection
 
 Finally, track **remaining health** and detect **kills**:
 
@@ -175,7 +136,7 @@ while True:
     if not event or event.type != EventType.DAMAGE:
         continue
 
-    if event.source not in ["player", "arrow", "trident", "snowball", "fireball"]:
+    if event.source not in ["player", "arrow", "trident"]:
         continue
 
     if event.cause_uuid != local_uuid:
@@ -195,4 +156,46 @@ while True:
             m.echo(f"💀 You killed {mob.type}!")
     else:
         m.echo(f"⚔️ You hit {mob.type}")
+```
+
+---
+
+```python
+import minescript as m
+
+# Netherite gear
+m.execute('/item replace entity @p weapon.mainhand with minecraft:iron_sword')
+m.execute('/item replace entity @p weapon.offhand with minecraft:shield')
+m.execute('/item replace entity @p armor.head with minecraft:netherite_helmet')
+m.execute('/item replace entity @p armor.chest with minecraft:netherite_chestplate')
+m.execute('/item replace entity @p armor.legs with minecraft:netherite_leggings')
+m.execute('/item replace entity @p armor.feet with minecraft:netherite_boots')
+
+# Weapons & tools
+weapons = [
+    'minecraft:bow',
+    'minecraft:crossbow',
+    'minecraft:trident',
+    'minecraft:flint_and_steel'
+]
+for w in weapons:
+    m.execute(f'/give @p {w} 1')
+
+# Arrows and tridents (extra supply)
+m.execute('/give @p minecraft:arrow 64')
+m.execute('/give @p minecraft:trident 3')
+
+# Totem of Undying
+m.execute('/give @p minecraft:totem_of_undying 1')
+
+# Time & environment (always daytime)
+m.execute('/time set day')
+m.execute('/gamerule doDaylightCycle false')
+
+# Buff effects
+m.execute('/effect give @p minecraft:health_boost infinite 4 true')     # extra hearts
+m.execute('/effect give @p minecraft:regeneration infinite 5 true')     # auto heal
+m.execute('/effect give @p minecraft:saturation infinite 5 true')       # no hunger
+
+m.echo("🔥 Netherite gear, infinite regen & no hunger mode granted!")
 ```
