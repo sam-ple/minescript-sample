@@ -8,6 +8,12 @@ layout: post
 
 ---
 
+## 🎥 YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wyhWqooBmI4?si=m2yVhNG1JwGJFYoh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Default Launcher (Official Minecraft Launcher)
 
 1. Download the required mods (Minescript + dependencies).
