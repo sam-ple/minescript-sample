@@ -11,6 +11,12 @@ This guide explains how to create a script that automatically places TNT under t
 
 ---
 
+## 🎥 YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LZcl7ct3JTc?si=a57zJNJy0cunpxSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## ❶ Goal
 
 - Automatically place TNT under the player when standing on certain blocks.
