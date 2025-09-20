@@ -12,6 +12,12 @@ Each section includes example code and the expected behavior.
 
 ---
 
+## 🎥 YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EQtkeupcTdE?si=ofca-s01ELVn2oO9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## ❶ Goal
 
 - Automatically teleport the player to a saved "home" location.
