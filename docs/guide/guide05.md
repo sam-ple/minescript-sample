@@ -14,6 +14,12 @@ then expand into a **countdown timer with bossbar**, controlled fully through ch
 
 ---
 
+## 🎥 YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZnUH9TbRTk?si=opFf5nAVSRwa4iC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## ❶ Goal
 
 * Learn how to **listen for chat messages** with `EventQueue`.
