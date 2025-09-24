@@ -74,3 +74,9 @@ layout: post
 ## ❓️ How do I write an infinite loop in pyjinn?
 
 - Pyjinn runs natively in the rendering thread of minecraft, meaning that your code cannot use a `while True` loop, as it would never give control back to the rest of the client. Instead, use `set_interval(func, ms)` for infinite loops.
+
+## ❓️ How do I find what's in X Object / Variable?
+- Print it. Printing an object will list it alongside any properties that you can call or read into chat.
+
+## ❓️ My script seems to lag a lot after running it for a while, why is this?
+- If you have lists, make sure that you are properly clearing them out to prevent a memory leak.
