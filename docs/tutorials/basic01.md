@@ -38,7 +38,7 @@ minescript.echo("Hello from Minescript!")  # Output a message to the Minecraft c
 
 Get and print the player's current coordinates in the Minecraft world.
 
-##### `player.position()`
+##### `player_position()`
 
 Returns the player's current position as an `(x, y, z)` tuple.
 This is useful for tracking movement or targeting actions.
@@ -46,12 +46,14 @@ This is useful for tracking movement or targeting actions.
 
 ```python
 import minescript
+from math import floor
 
 # Get the current player position (floats)
 x, y, z = minescript.player_position()
 
 # Convert to integers for clean display
-x, y, z = int(x), int(y), int(z)
+# x, y, z = int(x), int(y), int(z)
+x, y, z = floor(x), floor(y), floor(z)
 
 # Show the position in chat
 minescript.echo(f"Current Position: X={x}, Y={y}, Z={z}")
@@ -71,10 +73,12 @@ Useful for advanced actions not directly supported by Minescript.
 
 ```python
 import minescript
+from math import floor
 
 # Get and convert player position
 x, y, z = minescript.player_position()
-x, y, z = int(x), int(y), int(z)
+# x, y, z = int(x), int(y), int(z)
+x, y, z = floor(x), floor(y), floor(z)
 
 minescript.echo(f"Current Position: X={x}, Y={y}, Z={z}")
 
@@ -92,9 +96,11 @@ Adds a short delay before teleporting the player.
 ```python
 import time
 import minescript
+from math import floor
 
 x, y, z = minescript.player_position()
-x, y, z = int(x), int(y), int(z)
+# x, y, z = int(x), int(y), int(z)
+x, y, z = floor(x), floor(y), floor(z)
 minescript.echo(f"Current Position: X={x}, Y={y}, Z={z}")
 
 time.sleep(3)  # Wait for 3 seconds
@@ -112,9 +118,11 @@ Same as Tutorial 4 but using cleaner, explicit imports and built-in `map()`.
 ```python
 from time import sleep
 from minescript import player_position, echo, execute
+from math import floor
 
 # Get and convert position using map()
-x, y, z = map(int, player_position())
+# x, y, z = map(int, player_position())
+x, y, z = map(floor, player_position())
 echo(f"Current Position: X={x}, Y={y}, Z={z}")
 
 sleep(3)  # Wait 3 seconds
@@ -132,9 +140,11 @@ Summon different mobs one after another near the player, with a short delay betw
 ```python
 from time import sleep
 from minescript import player_position, echo, execute
+from math import floor
 
 # Get and convert player position
-x, y, z = map(int, player_position())
+# x, y, z = map(int, player_position())
+x, y, z = map(floor, player_position())
 
 # Summon an Allay at x+3, z+3
 execute(f"/summon minecraft:allay {x+3} {y} {z+3} {{}}")
@@ -159,7 +169,8 @@ from time import sleep
 import math
 from minescript import player_position, echo, execute
 
-x, y, z = map(int, player_position())
+# x, y, z = map(int, player_position())
+x, y, z = map(math.floor, player_position())
 
 mob = "allay"
 num_mobs = 12
@@ -187,7 +198,8 @@ import math
 import random
 from minescript import player_position, echo, execute
 
-x, y, z = map(int, player_position())
+# x, y, z = map(int, player_position())
+x, y, z = map(math.floor, player_position())
 
 mobs = ["allay", "bee", "parrot"]
 num_mobs = 12

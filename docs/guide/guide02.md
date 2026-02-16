@@ -188,7 +188,8 @@ with EventQueue() as eq:
             main_item = str(main_hand) if main_hand is not None else None
         
         # Combination: Holding a clock in main hand + Left Shift released
-        if main_item == "minecraft:clock":
+        # if main_hand_item == "minecraft:clock":
+        if  "minecraft:clock" in main_hand_item:
             if event.type == EventType.KEY and event.key == 340 and event.action == 0:
                 m.echo("Holding minecraft:clock in main hand + left shift released")
 ```
@@ -229,7 +230,8 @@ def backhome():
                     main_hand_item = str(hands.main_hand)
 
             # Check: main hand holds a clock + Left Shift released (action == 0)
-            if main_hand_item == "minecraft:clock":
+            # if main_hand_item == "minecraft:clock":
+            if  "minecraft:clock" in main_hand_item:
                 if event.type == EventType.KEY and event.key == 340 and event.action == 0:
                     m.execute(f"tp @p {x} {y} {z}")
                     m.echo("Teleported home because holding a clock + left shift released")
