@@ -6,6 +6,30 @@ layout: post
 
 # FAQ
 
+
+## ❓ How can I learn Minescript?
+
+- You can start here:
+  [https://github.com/n-aoH/Minescript-Overviews](https://github.com/n-aoH/Minescript-Overviews)
+- You can also check the official documentation:
+  [https://minescript.net/docs/](https://minescript.net/docs/)
+
+## ❓ How can I enable autorun(Automatically Start a Script)?
+
+- Add one of the following lines to your `config.txt`:
+  ```
+  autorun[WORLDNAME] = script_name
+  autorun[WORLDNAME] = script_name arg1 arg2
+  ```
+  - Replace `WORLDNAME` with your world name.
+  - Replace `script_name` with the name of your script (without `.py` or `.pyj`).
+  - You can optionally pass arguments after the script name.
+- To run the script in all worlds, use one of the following:
+  ```
+  autorun[*] = script_name
+  autorun[*] = script_name arg1 arg2
+  ```
+
 ## ❓️ Where do I put my files?
 
 - You can place both scripts and libraries into the `minescript` folder. Any files inside of the system folder may get deleted upon updating the mod. Placing files outside of these folders will likely not allow them to run or be imported.
@@ -57,8 +81,8 @@ layout: post
 
 ## ❓️ What Minecraft versions are supported? What is the latest version?
 
-- [Modrinth](https://modrinth.com/mod/minescript)  
-- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/minescript)
+- [Modrinth](https://modrinth.com/mod/minescript/versions)  
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/minescript/files/all?page=1&pageSize=20&showAlphaFiles=hide)
 - [Discord](https://discord.com/channels/930220988472389713/1008354793988821023)
 
 ## ❓️ How can I enable autocomplete in VS Code?
