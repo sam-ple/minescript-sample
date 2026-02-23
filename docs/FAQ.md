@@ -17,18 +17,17 @@ layout: post
 ## ❓ How can I enable autorun(Automatically Start a Script)?
 
 - Add one of the following lines to your `config.txt`:
-  ```
-  autorun[WORLDNAME] = script_name
-  autorun[WORLDNAME] = script_name arg1 arg2
-  ```
-  - Replace `WORLDNAME` with your world name.
-  - Replace `script_name` with the name of your script (without `.py` or `.pyj`).
-  - You can optionally pass arguments after the script name.
-- To run the script in all worlds, use one of the following:
-  ```
-  autorun[*] = script_name
-  autorun[*] = script_name arg1 arg2
-  ```
+
+> Format:  
+>   autorun[WORLDNAME] = script_name  
+> WORLDNAME:  
+>   runs in all worlds → *
+>   runs only in that world → Specific world name    
+> script_name:  
+>   File name without .py or .pyj  
+>   Arguments can be added after the name  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nXhepI2SeZE?si=-v2hKzYkikZEC5YS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## ❓️ Where do I put my files?
 
