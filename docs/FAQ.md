@@ -89,6 +89,8 @@ layout: post
 - In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`). This will enable minescript completion. You may need to set another path to your minescript folder to get user-made libraries to also complete.
 - To make VS Code automatically format .pyj files in python, go to settings (`Ctrl+,`) → `files:associations` and add `**/*.pyj` with a value of `python`
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rH3Hij5zXR4?si=6avSCscCvkMgDpHP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## ❓️ What if the server version is old?
 
 - Many modern servers allow backporting to older versions as long as your client is more recent than the server's actual version that it's running and in the same major update. (You can join a server running 1.21.4 on a 1.21.8 client, but likely not a 1.21.1 client.) For larger gaps in versions, consider using  **ViaVersion**, **ViaFabric**, or **ViaFabricPlus** to backport it.
