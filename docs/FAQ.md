@@ -18,14 +18,14 @@ layout: post
 
 - Add one of the following lines to your `config.txt`:
 
-> Format:  
->   autorun[WORLDNAME] = script_name  
-> WORLDNAME:  
->   runs in all worlds → *
->   runs only in that world → Specific world name    
-> script_name:  
->   File name without .py or .pyj  
->   Arguments can be added after the name  
+> #### Format:  
+> - `autorun[WORLDNAME] = script_name`  
+> #### Replace WORLDNAME:  
+> - runs in all worlds → `*`  
+> - runs only in that world → `Specific world name`  
+> #### Replace script_name:  
+> - File name without .py or .pyj  
+> - Arguments can be added after the name  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nXhepI2SeZE?si=-v2hKzYkikZEC5YS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
