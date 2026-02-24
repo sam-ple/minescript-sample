@@ -10,7 +10,7 @@ layout: post
 ## ❓ How can I learn Minescript?
 
 - You can start here:
-  [https://github.com/n-aoH/Minescript-Overviews](https://github.com/n-aoH/Minescript-Overviews)
+  [https://github.com/n-aoH/Minescript-Overviews/tree/main/Python-From-Scratch](https://github.com/n-aoH/Minescript-Overviews/tree/main/Python-From-Scratch)
 - You can also check the official documentation:
   [https://minescript.net/docs/](https://minescript.net/docs/)
 
