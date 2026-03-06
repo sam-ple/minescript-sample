@@ -10,25 +10,24 @@ layout: post
 ## ❓ How can I learn Minescript?
 
 - You can start here:
-  [https://github.com/n-aoH/Minescript-Overviews](https://github.com/n-aoH/Minescript-Overviews)
+  [https://github.com/n-aoH/Minescript-Overviews/tree/main/Python-From-Scratch](https://github.com/n-aoH/Minescript-Overviews/tree/main/Python-From-Scratch)
 - You can also check the official documentation:
   [https://minescript.net/docs/](https://minescript.net/docs/)
 
 ## ❓ How can I enable autorun(Automatically Start a Script)?
 
 - Add one of the following lines to your `config.txt`:
-  ```
-  autorun[WORLDNAME] = script_name
-  autorun[WORLDNAME] = script_name arg1 arg2
-  ```
-  - Replace `WORLDNAME` with your world name.
-  - Replace `script_name` with the name of your script (without `.py` or `.pyj`).
-  - You can optionally pass arguments after the script name.
-- To run the script in all worlds, use one of the following:
-  ```
-  autorun[*] = script_name
-  autorun[*] = script_name arg1 arg2
-  ```
+
+> #### Format:  
+> - `autorun[WORLDNAME] = script_name`  
+> #### Replace WORLDNAME:  
+> - runs in all worlds → `*`  
+> - runs only in that world → `Specific world name`  
+> #### Replace script_name:  
+> - File name without .py or .pyj  
+> - Arguments can be added after the name  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nXhepI2SeZE?si=-v2hKzYkikZEC5YS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## ❓️ Where do I put my files?
 
@@ -89,6 +88,8 @@ layout: post
 
 - In VS Code, go to Settings (`Ctrl+,`) → `python.analysis.extraPaths` and add the Minescript library path (`minescript/system/lib`). This will enable minescript completion. You may need to set another path to your minescript folder to get user-made libraries to also complete.
 - To make VS Code automatically format .pyj files in python, go to settings (`Ctrl+,`) → `files:associations` and add `**/*.pyj` with a value of `python`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rH3Hij5zXR4?si=6avSCscCvkMgDpHP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## ❓️ What if the server version is old?
 
